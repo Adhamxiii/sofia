@@ -1,6 +1,6 @@
 # Sofia
 
-![Logo](./src/assets/images/sofia-logo.png)
+![Logo](./src/assets/logo.png)
 
 A simple React application that allows users to browse and filter a collection of books.
 
