@@ -1,14 +1,11 @@
 import { useState } from "react";
 import all from "./assets/all.png";
 
-/* eslint-disable react/prop-types */
 const Book = ({ genre, icon, onClick, isSelected }) => {
   const [isFront, setIsFront] = useState(true);
-  // const [isActive, setIsActive] = useState(isSelected !== genre);
 
   const handleFlip = () => {
     setIsFront(!isFront);
-    // setIsActive(!isActive);
     onClick(genre);
   };
 
